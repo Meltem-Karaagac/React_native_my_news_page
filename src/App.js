@@ -7,6 +7,7 @@ import {
     Text,
     StatusBar,
     Image,
+    useState,
 } from 'react-native';
 
 
@@ -21,7 +22,6 @@ const App = () => {
                     style={styles.scrollView}>
                     <View style={styles.body}>
                         <View style={styles.header}>
-                            <Image></Image>
                             <Text style={styles.header}>McCarthy Hocamizdan anektodlar</Text>
                         </View>
 
